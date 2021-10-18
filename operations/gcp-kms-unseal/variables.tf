@@ -3,19 +3,19 @@ variable "vault_url" {
 }
 
 variable "gcloud-project" {
-  description = "Google project name"
+  description = "testoct2021"
 }
 
 variable "gcloud-region" {
-  default = "us-east1"
+  default = "us-central1"
 }
 
 variable "gcloud-zone" {
-  default = "us-east1-b"
+  default = "us-central1-a"
 }
 
 variable "account_file_path" {
-  description = "Path to GCP account file"
+  description = "/home/jmcarrillo/cluster-keys.json"
 }
 
 variable "key_ring" {
@@ -29,5 +29,5 @@ variable "crypto_key" {
 }
 
 variable "keyring_location" {
-  default = "global"
+  default = "us-central1-a"
 }
